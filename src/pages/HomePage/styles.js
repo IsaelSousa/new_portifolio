@@ -43,7 +43,7 @@ const Container = styled.div`
         justify-content: center;
         align-items: center;
 
-        height: 1.5rem;
+        height: 2rem;
         width: 100vw;
         background: rgba(0,0,0, 0.4);
         position: fixed;
@@ -52,7 +52,7 @@ const Container = styled.div`
         span {
         color: white;
         font-family: 'Press Start 2P', sans-serif;
-        font-size: 8pt;
+        font-size: 12pt;
         }
     }
 
