@@ -24,6 +24,7 @@ const Container = styled.div`
 
 const Background = styled.div`
   display: flex;
+  flex-direction: column;
 `;
 
 const AccordionSection = styled.div`
@@ -42,6 +43,7 @@ const AccordionSection = styled.div`
 const Wrap = styled.button`
   background: rgba(0,0,0, 0.4);
   width: 200px;
+  height: 40px;
   border: none;
 
   font-family: 'Ubuntu';
@@ -49,6 +51,11 @@ const Wrap = styled.button`
   color: white;
   padding: 0.5rem;
   cursor: pointer;
+  transition: 300ms;
+
+  &:hover {
+    font-size: 14pt;
+  }
 `;
 
 const Dropdown = styled.span`

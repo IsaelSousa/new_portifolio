@@ -5,7 +5,7 @@ const Container = styled.div`
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 1rem;
 
   h2 {
     color: white;
@@ -25,9 +25,17 @@ const AllItems = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+
+  @media(max-width: 720px){
+    flex-direction: column;
+    margin-top: 0px;
+  }
 `;
 
 const Item = styled.div`
+  @import "css-aspect-ratio/css-aspect-ratio";  
   width: 165px;
   height: 190px;
   background: rgba(220, 220, 220, 0.3);
@@ -49,6 +57,23 @@ const Item = styled.div`
     height: 130px;
     border-radius: 20px;
     margin-bottom: 10px;
+  }
+
+  &:hover {
+    border: 2px solid rgb(48, 240, 128);
+    width: 180px;
+    height: 210px;
+  }
+
+  @media(max-width: 720px){
+    display: flex;
+    margin-top: 0px;
+  }
+
+  @media(max-width: 768px){
+    display: flex;
+    padding-right: 1rem;
+    padding-left: 1rem;
   }
 `;
 

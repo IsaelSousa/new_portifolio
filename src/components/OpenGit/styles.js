@@ -15,6 +15,20 @@ const ContainerGit = styled.a`
 
   cursor: pointer;
   transition: 500ms;
+
+  span {
+    font-family: 'Ubuntu';
+    font-size: 14pt;
+    transition: 500ms;
+
+    &:hover {
+      font-size: 16pt;
+    }
+  }
+
+  &:hover {
+    width: 135px;
+  }
 `;
 
 export { ContainerGit };
