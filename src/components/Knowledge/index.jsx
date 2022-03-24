@@ -14,7 +14,7 @@ function Knowledge(){
   }
   return(
     <Container>
-      <h2>Conhecimento</h2>
+      <h2>Tecnologias</h2>
       <span>Learning</span>
       <Background>
         {Data.map((items, index)=> (

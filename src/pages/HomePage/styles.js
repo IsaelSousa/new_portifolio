@@ -12,7 +12,7 @@ const Container = styled.div`
     h1 {
         display: flex;
         justify-content: center;
-        margin-top: 1rem;
+        margin-top: 2rem;
 
         font-family: 'Ubuntu';
         font-weight: 700;
@@ -51,8 +51,8 @@ const Container = styled.div`
 
         span {
         color: white;
-        font-family: 'Press Start 2P', sans-serif;
-        font-size: 12pt;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 13pt;
         }
     }
 

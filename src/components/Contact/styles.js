@@ -8,7 +8,6 @@ const Container = styled.div`
   text-align: center;
   flex-direction: column;
 
-  margin-top: 2rem;
   margin-bottom: 2rem;
 
   h2 {
@@ -19,7 +18,7 @@ const Container = styled.div`
 `;
 
 const AllItems = styled.div`
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 `;
 
 const Items = styled.a`

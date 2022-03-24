@@ -7,7 +7,6 @@ const Container = styled.div`
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-top: 1rem;
 
   h2 {
     color: white;
@@ -60,6 +59,14 @@ const Wrap = styled.button`
 
 const Dropdown = styled.span`
   margin: 5px;
+
+  transition: 300ms;
+  &:hover {
+    margin: 10px;
+    font-size: 13pt;
+    font-weight: bold;
+    cursor: pointer;
+  }
 `;
 
 export { 

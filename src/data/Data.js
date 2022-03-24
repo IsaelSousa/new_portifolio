@@ -5,10 +5,11 @@ const Data = [
     icon: '',
     learning: [
         'styled-components',
-        'CRUD',
+        'responsive website',
         'consuming-APIs',
-        'responsible',
-        'TypeScript'
+        'TypeScript',
+        'CRUD',
+        'Hooks'
       ],
     
   },
@@ -17,24 +18,32 @@ const Data = [
     icon: '',
     learning: [
      'create APIs',
-     'CRUD',
+     'SQL/NoSQL',
      'MongoDB',
      'Postgress',
+     'CRUD',
     ]
   },
   {
     name: 'Flutter/Dart',
     icon: '',
     learning: [
-      'Material IU',
-      'Consuming APIs'
+      'Consuming APIs',
+      'MaterialApp',
     ]
   },
   {
-    name: 'Git',
+    name: 'Python',
     icon: '',
     learning: [
-      'Github'
+      'RPA - Robotic Process Automation',
+    ]
+  },
+  {
+    name: 'Others',
+    icon: '',
+    learning: [
+      'Git/Github',
     ]
   }
 ]
